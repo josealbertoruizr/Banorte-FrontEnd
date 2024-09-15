@@ -1,0 +1,120 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f8f9fa;
+    
+}
+
+.leftSection {
+    flex: 1;
+    background: linear-gradient(135deg, #f63b3b, #73140f);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.leftSection h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.leftSection p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.readMoreButton {
+    background-color: white;
+    color: #f63b3b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+    background-color: #2563eb;
+}
+
+.rightSection {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rightSection h2 {
+    font-size: 42px;
+    /* Aumenta el tamaño del título */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.titulo_cuenta{
+    font-size: 50px;
+
+}
+
+.p_cuenta{
+    font-size: 100px;
+}
+
+.rightSection p {
+    font-size: 20px;
+    /* Aumenta el tamaño del texto */
+    margin-bottom: 30px;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.inputGroup input {
+    width: 100%;
+    /* Mantener el ancho al 100% para que ocupe todo el espacio disponible */
+    padding: 20px;
+    /* Aumentar el padding para hacer el input más alto */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 20px;
+    /* Aumentar el tamaño de la fuente */
+    max-width: 400px;
+    /* Limitar el ancho máximo del input para que no se extienda demasiado */
+}
+
+.registerButton {
+    background-color: #f63b3b;
+    color: white;
+    padding: 15px 20px;
+    /* Aumenta el padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    /* Aumenta el tamaño del texto en el botón */
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.registerButton:hover {
+    background-color: #e41d0f;
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
